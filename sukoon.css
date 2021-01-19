@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+
+}
+
+.navbar{
+	padding: 50px 0;
+
+}
+
+
+.nav-item{
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: #FFAD3E;
+    color: #262626;
+
+
+
+}
+
+
+.main{
+	position: relative;
+	background: url(peru.png);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 220px 0 200px;
+}
+
+
+.navbar-toggler-icon{
+	background-color: #FFAD3E;
+}
+
+.blog-meta{
+	margin-bottom: 2px;
+	font-size: 14px;
+}
+
+.blog-meta span{
+	font-size: 12px;
+	float: right;
+	color: #FFAD3E;
+}
+
+.images {
+  /* The image used */
+  background-image: url('vietnam.png');
+
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card-scroll, .letter-scroll{
+    opacity: 0;
+}
+
+.card-scroll.animate__animated, .letter-scroll.animate__animated {
+	opacity: 1;
+}
+
+.underline{
+	border-bottom: 4px solid #FFAD3E;
+	line-height: 50px;
+	
+
+}
